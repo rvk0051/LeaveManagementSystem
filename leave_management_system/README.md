@@ -26,9 +26,9 @@ This Leave Management System allows employees to apply for leaves( edit or delet
 
 ## Tech Stack
 
-* Backend: Django, Django REST Framework
-* Database: PostgreSQL
-* Tools: Postman (for API testing), Python 3.8+
+* **Backend:** Django, Django REST Framework
+* **Database:** PostgreSQL
+* **Tools:** Postman (for API testing), Python 3.8+
 
 ---
 
