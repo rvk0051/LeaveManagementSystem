@@ -10,30 +10,25 @@ This Leave Management System allows employees to apply for leaves( edit or delet
 
 ## Features
 
-* Authentication and Authorization
-
 * Apply, update, and cancel leaves
+* **Role-Based Access Control** — Different access for employees on their position.
 
-* Automatic leave balance tracking
+* **Smart Leave Handling** — Auto-detects weekends, supports monthly leave limits
 
 * Senior approval/rejection of leave requests
 
-* Notification system for leave actions
+* **Notification System** — Tracks leave events (apply, approve, reject)
 
-* Automatic carry forward of unused leaves
-
-* Intelligent Holiday Handling: Saturdays and Sundays are automatically recognized as non-working days; if included in a leave request, they won't be counted towards the leave balance.
-
-* Robust Error Handling: Comprehensive exception handling to provide meaningful error messages for invalid inputs or unexpected issues, enhancing API reliability.
+* **Error Handling** — Clean, descriptive responses for all API interactions
+* **Leave Carry Forward** — Automatically carries forward unused leave monthly
 
 ---
 
 ## Tech Stack
 
 * Backend: Django, Django REST Framework
-* Authentication: JWT (djangorestframework-simplejwt)
 * Database: PostgreSQL
-* Tools: Postman (for testing), Python 3.8+
+* Tools: Postman (for API testing), Python 3.8+
 
 ---
 
